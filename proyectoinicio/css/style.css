@@ -742,6 +742,8 @@ h1 {
     background-color: var(--colorPrincipal);
     padding-top: 90px;
     padding-bottom: 130px;
+
+    
 }
 
 .Contacto .contenedor>h3 {
@@ -769,10 +771,13 @@ h1 {
 
 .ContactoCuadros img {
     margin-right: 15px;
+    
 }
 
 .cuadro1 {
     display: flex;
+    font-family: var(--fuentePrincipal);
+    font-weight: 800;
     background-color: white;
     margin-right: 15px;
     border-radius: 0.55rem;
@@ -781,10 +786,13 @@ h1 {
     flex: 1;
     max-width: 50%;
     padding: 20px;
+    
 }
 
 .cuadro2 {
     background-color: white;
+    font-family: var(--fuentePrincipal);
+    font-weight: 800;
     margin-left: 15px;
     border-radius: 0.55rem;
     display: flex;
@@ -793,6 +801,11 @@ h1 {
     flex: 1;
     max-width: 50%;
     padding: 20px;
+}
+
+.ContactoCuadros a{
+    color: var(--colorPrincipal);
+    text-decoration: none;
 }
 
 @media (max-width:1140px) {
@@ -874,6 +887,8 @@ h1 {
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
+
+    
 }
 
 
