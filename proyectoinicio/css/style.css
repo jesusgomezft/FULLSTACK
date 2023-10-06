@@ -230,7 +230,16 @@ h1 {
     font-family: var(--fuenteBotones);
     font-weight: 700;
     font-size: 1.4rem;
+    
 }
+
+.flexMain a:hover{
+   background-color: white;
+    text-decoration: none;
+    border-color: #F76666;
+    color: var(--colorPrincipal);
+}
+
 
 @media (max-width:768px) {
     .fondoMain a{
@@ -249,6 +258,7 @@ h1 {
 .flexMain img{
     margin-right: 10px;
 }
+
 
 
 /* ESTILOS PARA LA SECCION DE IMAGEN DE CORPORACIONES  */
